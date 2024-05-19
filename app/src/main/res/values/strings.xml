@@ -7,4 +7,15 @@
 Password?</string>
     <string name="or_sign_in_with">or sign in with</string>
     <string name="todo">TODO</string>
+    <string name="number_1">Number 1</string>
+    <string name="caluclator">Caluclator</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="calculate">Calculate</string>
+    <string name="result">Result</string>
+    <string name="number_2">Number 2</string>
+    <string name="addition">Addition</string>
+    <string name="substraction">Substraction</string>
+    <string name="multiple">Multiple</string>
+    <string name="division">Division</string>
 </resources>
