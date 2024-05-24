@@ -13,6 +13,12 @@
         android:theme="@style/AppTheme1"
         tools:targetApi="31">
         <activity
+            android:name=".ActivityExercise7Act2"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityExercise7Act1"
+            android:exported="true" />
+        <activity
             android:name=".ActivityExercise6"
             android:exported="true" />
         <activity

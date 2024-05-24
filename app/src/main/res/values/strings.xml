@@ -18,4 +18,11 @@ Password?</string>
     <string name="substraction">Substraction</string>
     <string name="multiple">Multiple</string>
     <string name="division">Division</string>
+    <string name="your_name">Your name</string>
+    <string name="enter_your_website">Enter your website</string>
+    <string name="click_me">Click me</string>
+    <string name="dial">Dial</string>
+    <string name="browser_url">Browser Url</string>
+    <string name="textview">TextView</string>
+    <string name="back">Back</string>
 </resources>
