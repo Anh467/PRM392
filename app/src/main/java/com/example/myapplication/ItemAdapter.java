@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 
@@ -13,7 +14,6 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
 
-import model.Animal;
 import model.Item;
 
 public class ItemAdapter extends RecyclerView.Adapter<ItemAdapter.ItemViewHolder> {
@@ -78,14 +78,13 @@ public class ItemAdapter extends RecyclerView.Adapter<ItemAdapter.ItemViewHolder
 
         holder.textViewId.setText(String.valueOf(item.getId()));
         holder.textViewName.setText(item.getName());
-        holder.textViewName.setText(item.getName());
         holder.itemView.setOnClickListener(v -> {
             Intent intent = new Intent(context,
-                    ActivityExercise6Lab1_Main2.class);
+                    ActivityExercise8Lab2_Main2.class);
             intent.putExtra("id", item.getId());
             intent.putExtra("name", item.getName());
-            intent.putExtra("description",
-                    item.getDescription());
+            intent.putExtra("image", item.getImage());
+            intent.putExtra("description", item.getDescription());
             context.startActivity(intent);
         });
     }
@@ -97,17 +96,18 @@ public class ItemAdapter extends RecyclerView.Adapter<ItemAdapter.ItemViewHolder
      */
     @Override
     public int getItemCount() {
-        return 0;
+        return itemList.size();
     }
 
     static class ItemViewHolder extends RecyclerView.ViewHolder {
         TextView textViewId;
         TextView textViewName;
-        TextView imageItem;
+        ImageView imageItem;
         public ItemViewHolder(@NonNull View itemView) {
             super(itemView);
-            textViewId = itemView.findViewById(R.id.textViewId);
-            textViewName = itemView.findViewById(R.id.textViewName);
+            textViewId = itemView.findViewById(R.id.textViewId2);
+            imageItem = itemView.findViewById(R.id.imageView2);
+            textViewName = itemView.findViewById(R.id.textViewName2);
         }
     }
 }

@@ -47,7 +47,10 @@
       <SelectionState runConfigName="Exercise 7">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
-      <SelectionState runConfigName="Exercise 8">
+      <SelectionState runConfigName="Exercise 8 Lab 1">
+        <option name="selectionMode" value="DROPDOWN" />
+      </SelectionState>
+      <SelectionState runConfigName="Exercise 8 Lab 2">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
     </selectionStates>

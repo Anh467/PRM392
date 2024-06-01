@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
@@ -9,26 +10,33 @@
     tools:context=".ActivityExercise6Lab1_Main2">
 
     <TextView
-        android:id="@+id/textViewDetailName"
+        android:id="@+id/textViewDetailId2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Name"
-        android:textStyle="bold"
+        android:text="ID2"
         android:textSize="22sp"
-        android:layout_marginTop="8dp" />
-    <TextView
-        android:id="@+id/textViewDetailDescription"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Description"
-        android:textSize="22sp"
-        android:layout_marginTop="8dp" />
+        android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/textViewDetailId"
+        android:id="@+id/textViewDetailDescription2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ID"
+        android:layout_marginTop="8dp"
+        android:text="Description2"
+        android:textSize="22sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/textViewDetailName2"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginTop="8dp"
+        android:text="Name2"
         android:textSize="22sp"
         android:textStyle="bold" />
 </LinearLayout>

@@ -3,10 +3,10 @@ package model;
 public class Item {
     private int id;
     private String name;
-    private String image;
+    private int image;
     private String description;
 
-    public Item(int id, String name, String image, String description) {
+    public Item(int id, String name, int image, String description) {
         this.id = id;
         this.name = name;
         this.image = image;
@@ -29,11 +29,11 @@ public class Item {
         this.name = name;
     }
 
-    public String getImage() {
+    public int getImage() {
         return image;
     }
 
-    public void setImage(String image) {
+    public void setImage(int image) {
         this.image = image;
     }
 
