@@ -53,6 +53,9 @@
       <SelectionState runConfigName="Exercise 8 Lab 2">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
+      <SelectionState runConfigName="Exercise 9">
+        <option name="selectionMode" value="DROPDOWN" />
+      </SelectionState>
     </selectionStates>
   </component>
 </project>
